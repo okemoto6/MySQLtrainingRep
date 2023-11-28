@@ -1,2 +1,3 @@
 # MySQLtrainingRep
-Training rep for MySQL learning
+
+### Repository for training SQL - MySQL and BigQuery
