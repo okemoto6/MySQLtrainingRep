@@ -14,11 +14,12 @@ CREATE TABLE `my-beers-project.my_beers.bjcp-guidelines`(
     srm_max float64,
     );
 
+--inserting values example
 INSERT INTO `my-beers-project.my_beers.bjcp-guidelines`
 VALUES('01A', 'Standard American Beer', 'American Light Lager', 'Pale Lager', 'United States', 2.8, 4.2, 8, 12, 2, 3),
         ('01B', 'Standard American Beer', 'American Lager', 'Pale Lager', 'United States', 4.2, 5.3, 8.0, 18.0, 2.0, 4.0),
 
---and so on with all styles
+-- As mentioned above, all tables were imported into dataset from csv files
 
 -- adding constraints to relevant columns:
 -- primary keys
@@ -67,4 +68,4 @@ SET OPTIONS (
 ALTER COLUMN final_size
 SET OPTIONS (
   description = 'size of beer bottled; in liters'
-) 
+);
