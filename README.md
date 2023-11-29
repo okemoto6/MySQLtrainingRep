@@ -1,4 +1,4 @@
 # MySQLtrainingRep
 
-### Repository for training SQL. 
+### Repository for training SQL.  
 ### Queries, definitions and manipulations.
