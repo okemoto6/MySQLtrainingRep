@@ -9,6 +9,7 @@ Write a query to find the people who spent a higher than average amount of time 
 
 Provide just their first names alphabetically so we can reach out to them individually. 
 */
+
 SELECT first_name
 FROM users
 WHERE user_id IN (SELECT user_id
